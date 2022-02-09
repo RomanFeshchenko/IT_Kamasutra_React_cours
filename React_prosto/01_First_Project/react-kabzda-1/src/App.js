@@ -17,11 +17,11 @@ const App = () => {
         <Navbar />
         <div class="app-wrapper-content">
           <Routes>
-            <Route exact path="/profile" element={<Profile />} />
-            <Route exact path="/dialogs" element={<Dialogs />} />
-            <Route exact path="/news" element={<News />} />
-            <Route exact path="/music" element={<Music />} />
-            <Route exact path="/settings" element={<Settings />} />
+            <Route path="/profile/*" element={<Profile />} />
+            <Route path="/dialogs/*" element={<Dialogs />} />
+            <Route path="/news/*" element={<News />} />
+            <Route path="/music/*" element={<Music />} />
+            <Route path="/settings/*" element={<Settings />} />
           </Routes>
         </div>
       </div>
