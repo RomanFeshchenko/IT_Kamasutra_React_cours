@@ -13,10 +13,11 @@
     color: gold;
 }
 .dialog {
+  color: white;
 }
 .messages {
   padding: 10px;
 }
-.massage {
-
+.massage .messages{
+  color: white;
 }
